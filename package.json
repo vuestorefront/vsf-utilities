@@ -1,6 +1,6 @@
 {
   "name": "vsf-utilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utilities functions shared between vsf projects",
   "keywords": [
     "vsf",
@@ -27,6 +27,7 @@
     "prepublishOnly": "npm run test && npm run build"
   },
   "dependencies": {
+    "lodash": "^4.17.19",
     "sha3": "^2.1.3"
   },
   "devDependencies": {
