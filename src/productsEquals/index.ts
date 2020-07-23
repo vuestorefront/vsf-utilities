@@ -1,7 +1,4 @@
 import productChecksum from './productChecksum';
-import productsEquals from './productChecksum'
+import productsEquals from './productsEquals';
 
-export {
-  productChecksum,
-  productsEquals
-}
+export { productChecksum, productsEquals };
